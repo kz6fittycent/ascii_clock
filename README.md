@@ -1,3 +1,5 @@
+[![Snap Status](https://build.snapcraft.io/badge/kz6fittycent/ascii_clock.svg)](https://build.snapcraft.io/user/kz6fittycent/ascii_clock)
+
 # ASCII clock
 
 Python script that prints out a clock in ASCII art style to the console
@@ -17,6 +19,9 @@ For small clock week day and day are hidden:
 For linux version added a set of standard chars to draw the clock items with. Here you can see the Linux version of the clock:
 
 ![ASCII clock linux screenshot](http://4.bp.blogspot.com/-xY-4HvAaQ4o/VSLoILYUQwI/AAAAAAAAAng/X1x9RhWnDtc/s1600/clock_linux.png)
+
+# INSTALL THE SNAP
+`sudo snap install ascii-clock`
 
 License:
 --------
