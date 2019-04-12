@@ -27,3 +27,4 @@ parts:
     plugin: copy
     files:
       ./clock.py: bin/clock.py
+      ./asciicanvas.py bin/asciicanvas.py
