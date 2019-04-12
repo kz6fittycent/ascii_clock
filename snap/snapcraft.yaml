@@ -1,4 +1,4 @@
-name: ascii clock  # check to see if it's available
+name: ascii-clock  # check to see if it's available
 version: git
 summary: An analog clock for your terminal# 79 char long summary
 description: |
@@ -7,7 +7,7 @@ grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs
 
 apps:
-  asdf:
+  ascii-clock:
     command: python3 $SNAP/bin/clock.py
      
 parts: 
