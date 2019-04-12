@@ -1,0 +1,29 @@
+name: ascii clock  # check to see if it's available
+version: git
+summary: An analog clock for your terminal# 79 char long summary
+description: |
+  Python script that prints out a clock in ASCII art style to the console. 
+grade: stable # must be 'stable' to release into candidate/stable channels
+confinement: strict # use 'strict' once you have the right plugs
+
+apps:
+  asdf:
+    command: python3 $SNAP/bin/clock.py
+     
+parts: 
+  asdf:
+    source: https://github.com/kz6fittycent/ascii_clock
+    source-type: git
+    plugin: python
+    python-version: python3
+    
+    build-packages:
+      - python3
+      
+    stage-packages:
+      - python3
+
+  publish:
+    plugin: copy
+    files:
+      ./clock.py: bin/clock.py
