@@ -11,7 +11,7 @@ import datetime
 from asciicanvas import AsciiCanvas
 
 
-x_scale_ratio = 1.75
+x_scale_ratio = 2.00
 
 
 def draw_second_hand(ascii_canvas, seconds, length, fill_char):
