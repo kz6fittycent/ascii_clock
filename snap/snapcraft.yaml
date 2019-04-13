@@ -1,6 +1,6 @@
 name: ascii-clock  # check to see if it's available
 version: git
-summary: An analog clock for your terminal# 79 char long summary
+summary: An analog clock for your terminal # 79 char long summary
 description: |
   Python script that prints out a clock in ASCII art style to the console. 
 grade: stable # must be 'stable' to release into candidate/stable channels
